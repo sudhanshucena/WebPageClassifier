@@ -1,5 +1,5 @@
 
-name := "SparkCount"
+name := "WebSiteClassifier"
 
 version := "1.0"
 
