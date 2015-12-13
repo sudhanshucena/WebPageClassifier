@@ -25,3 +25,6 @@ project/plugins/project/
 *.iws
 .idea
 out
+
+# Allow
+!/target/nekohtml-1.9.22.jar
