@@ -17,7 +17,7 @@ object WebPageClassifier {
 //    Thread.sleep(200)
 
     val readfile_one = sc.parallelize(HtmlExtractorObject.content("http://www.bbc.co.uk/news/uk-35023558").split(" +"),2)
-    readfile_one.take(1).foreach(println)
+    readfile_one.take(10).foreach(println)
     val stopwords = sc.textFile("file:///home/sudhanshu/Desktop/article_classificaiton/stopwords.txt").flatMap(line => line.split("\n"))
 //    val readfile_two = sc.textFile("file:///home/sudhanshu/Desktop/article_classificaiton/file2")
 //    readfile_two.take(2).foreach(println)
