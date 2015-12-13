@@ -5,7 +5,7 @@ version := "1.0"
 
 scalaVersion := "2.11.7"
 
-scalaHome := Some(file("/usr/lib/scala-2.11.7"))
+//scalaHome := Some(file("/usr/lib/scala-2.11.7"))
 
 //unmanagedJars in Compile += file("/home/sudhanshu/Desktop/SparkCount/target/scala-2.11/nekohtml-1.9.22.jar")
 
