@@ -13,9 +13,7 @@ libraryDependencies ++= Seq("org.apache.spark" % "spark-core_2.11" % "1.5.2" % "
   "org.scalatest" % "scalatest_2.11" % "3.0.0-M12" % "provided",
   "org.apache.spark" % "spark-mllib_2.11" % "1.5.2" % "provided",
   "xerces" % "xercesImpl" % "2.11.0",
-//  "net.sourceforge.nekohtml" % "nekohtml" % "1.9.22" excludeAll(
-  //  ExclusionRule(organization = "org.cyberneko.html.HTMLElements")
-  //),
+
   "de.l3s.boilerpipe" % "boilerpipe" % "1.1.0"
 )
 
